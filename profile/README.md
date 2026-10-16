@@ -24,15 +24,10 @@ reference interpreter and readable C to Rust, Go, TypeScript and GPU kernels.
 
 | Repository | What it is |
 | --- | --- |
-| [cista](https://github.com/faberlang/cista) | The package store and runtime-binding layer, with the `cista` command |
 | [triga](https://github.com/faberlang/triga) | Graphics and geometry library |
 | [gradus](https://github.com/faberlang/gradus) | Autograd and machine-learning library |
 | [tela](https://github.com/faberlang/tela) | UI and view library |
-| [inferentia](https://github.com/faberlang/inferentia) | A local-first GGUF inference server written in Faber (early) |
-| [react](https://github.com/faberlang/react) | A local command-line agent written in Faber, with on-device inference (early) |
-| [rivus](https://github.com/faberlang/rivus) | A Faber interpreter written in Faber (not yet implemented) |
 | [tree-sitter-faber](https://github.com/faberlang/tree-sitter-faber) | Syntax highlighting for editors |
-| [examples](https://github.com/faberlang/examples) | Application packages and tracks |
 
 Each repository's README states its own status.
 
@@ -41,5 +36,6 @@ Each repository's README states its own status.
 - [faber-1.x](https://github.com/faberlang/faber-1.x) is the repository that
   held Faber 1.0 to 1.12. It is archived, and its version tags were carried
   into `faber`, so a project pinned to a 1.x tag keeps resolving.
-- `norma`, `hosts` and the `host-*-rs` repositories are superseded and kept for
-  history. The standard library now lives in `faber` (`lib/norma`).
+- [norma](https://github.com/faberlang/norma) and
+  [hosts](https://github.com/faberlang/hosts) are archived and superseded. The
+  standard library now lives in `faber` (`lib/norma`).
