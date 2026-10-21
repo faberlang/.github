@@ -20,6 +20,19 @@ reference interpreter and readable C to Rust, Go, TypeScript and GPU kernels.
   source. The current release is 1.14.0.
 - **Website and documentation:** [faberlang.dev](https://faberlang.dev).
 
+## For coding agents
+
+- [faberlang.dev/llms.txt](https://faberlang.dev/llms.txt) points to the
+  writing guide an agent should read first, and
+  [faberlang.dev/install.md](https://faberlang.dev/install.md) is the install
+  route.
+- [GitMCP](https://gitmcp.io/faberlang/faber) serves the `faber` repository
+  as a remote MCP server at `https://gitmcp.io/faberlang/faber`, for any MCP
+  client.
+- [DeepWiki](https://deepwiki.com/faberlang/faber) has a third-party,
+  machine-generated wiki of the `faber` repository. Where it disagrees with
+  faberlang.dev, the site is right.
+
 ## Around the language
 
 | Repository | What it is |
