@@ -17,7 +17,7 @@ reference interpreter and readable C to Rust, Go, TypeScript and GPU kernels.
 - **Releases:** [faberlang/releases](https://github.com/faberlang/releases)
   publishes the official `faber` binaries for macOS (Apple silicon) and Linux
   (x86_64). They include every code generator, not only the ones in the public
-  source. The current release is 1.16.0.
+  source. The current release is 1.17.0.
 - **Website and documentation:** [faberlang.dev](https://faberlang.dev).
 
 ## For coding agents
